@@ -1,0 +1,46 @@
+body {
+    font-size: 15px;
+    font-family: "Helvetica", "Verdana", "Arial", sans-serif;
+    margin: 1.5em;
+    text-align: justify;
+}
+h1 {
+	font-size: 1.3rem;
+}
+header {
+	max-width: 60rem;
+}
+form {
+	display: inline-block;
+	background-color: lightgrey;
+	border-radius: 0.5rem;
+	line-height: 1.2rem;
+	padding: 0.5rem;
+
+	font-size: 1rem;
+	font-weight: normal;
+}
+form p {
+	margin: 0.7rem;
+}
+input[type=button], input[type=submit], input[type=reset] {
+	text-transform: uppercase;
+	padding: 0.33rem;
+	color: black;
+
+	font-size: 1rem;
+	font-weight: bold;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+a, a:visited {
+	color: blue;
+}
+a:hover {
+	text-decoration: underline;
+}
